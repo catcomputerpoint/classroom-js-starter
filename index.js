@@ -5,3 +5,4 @@ const greet = (user)=>{
 let myGreet = greet("Saketh");
 console.log(myGreet);
 
+module.exports = { greet };
